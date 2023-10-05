@@ -12,7 +12,6 @@ func newServiceEager[T any](name string, instance T) Service[T] {
 	}
 }
 
-//nolint:unused
 func (s *ServiceEager[T]) getName() string {
 	return s.name
 }
